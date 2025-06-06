@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0fff0;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.signup-button {
+  display: inline-block;
+  background-color: #43a047;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.signup-button:hover {
+  background-color: #388e3c;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8f5e9;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
